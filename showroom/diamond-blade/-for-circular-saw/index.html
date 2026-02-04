@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>404 Page not found - SALI</title>
+    <meta name="description" content="404 Page not found. Our website products are being updated, please contact us for details by email.">
+    <meta name="keywords" content="404 Page not found">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../../../images/404-3/toastr.min.css" rel="stylesheet" />
+    <link href="../../../images/404-4/index.css" rel="stylesheet" />
+    <script src="https://js01.v15cdn.com/jquery.js"></script>
+    <style type="text/css">
+        .feed-verification {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px
+        }
+
+            .feed-verification #in-verification {
+                width: 200px;
+                margin-right: 20px
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container flex-jc-sb">
+            <a href="/" class="logo flex-jc-ai-c"><img src="../../../uploads/27152/logo.png" alt="Zhejiang SALI Abrasive Technology Co.,Ltd"></a>
+            <nav>
+                <ul class="nav flex">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/products" class="current">Products</a></li>
+                    <li><a href="/newslist-1">News</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                    <li><a href="/inquiry">Feedback</a></li>
+                </ul>
+            </nav>
+            <div class="mmenu">
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container flex-ai-c">
+                <div class="banner-l"><img src="../../../images/404-3/404-icon.jpg" alt="logo"></div>
+                <div class="banner-r">
+                    <p class="banner-tit">No results were found</p>
+                    <p class="banner-text">Our website products are being updated,please contact us for details by email.</p>
+                    <div class="searchbox flex">
+                        <input name="lname" id="txtSearch" type="text" class="search_input" placeholder="keywords">
+                        <button class="search_btn flex-jc-ai-c" onclick="PSearch()" id="btnSearch"><img src="../../../images/404-3/404-search.png" alt="search">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="maypro">
+            <div class="container">
+                    <p class="home-tit">You May Also Be Interested In</p>
+                    <ul class="maypro-list flex-jc-sb">
+                        <li><a href="https://www.sali-group.com/cordless/cordless-impact-wrench-8202f.html"> <div class="maypro-item-img"><img src="../../../uploads/27152/small/cordless-impact-wrench-8202fa47d0.jpg" alt="Cordless Impact Wrench 8202F"></div> <div class="maypro-item-box flex-ai-c"><p class="maypro-item-tit line2">Cordless Impact Wrench 8202F</p><p class="maypro-item-icon flex-jc-ai-c"><img src="../../../images/404-3/404-arrow.png" alt=""></p></div></a></li><li><a href="https://www.sali-group.com/air-tools/sali-ultra-quiet-oil-free-air-compressor.html"> <div class="maypro-item-img"><img src="../../../uploads/202227152/small/sali-ultra-quiet-oil-free-air-compressor40016644247.jpg" alt="SALI Ultra Quiet Oil-Free Air Compressor"></div> <div class="maypro-item-box flex-ai-c"><p class="maypro-item-tit line2">SALI Ultra Quiet Oil-Free Air Compressor</p><p class="maypro-item-icon flex-jc-ai-c"><img src="../../../images/404-3/404-arrow.png" alt=""></p></div></a></li><li><a href="https://www.sali-group.com/high-pressure-power-tool/plisher/sali-100-110mm-270w-orbital-sander-for-polish.html"> <div class="maypro-item-img"><img src="../../../uploads/202227152/small/sali-100-110mm-270w-orbital-sander-for-polish19185881321.jpg" alt="SALI 100*110mm 270W Orbital Sander For Polish"></div> <div class="maypro-item-box flex-ai-c"><p class="maypro-item-tit line2">SALI 100*110mm 270W Orbital Sander For Polish</p><p class="maypro-item-icon flex-jc-ai-c"><img src="../../../images/404-3/404-arrow.png" alt=""></p></div></a></li><li><a href="https://www.sali-group.com/welding-tools/inverter-electric-welding-machine.html"> <div class="maypro-item-img"><img src="../../../uploads/202027152/small/inverter-electric-welding-machine58304307251.jpg" alt="Inverter Electric Welding Machine"></div> <div class="maypro-item-box flex-ai-c"><p class="maypro-item-tit line2">Inverter Electric Welding Machine</p><p class="maypro-item-icon flex-jc-ai-c"><img src="../../../images/404-3/404-arrow.png" alt=""></p></div></a></li>
+                    </ul>
+                            </div>
+        </section>
+        <section class="feed">
+
+            <div class="container">
+
+                <p class="home-tit">Contact Us</p>
+                <div id="wmkcfeedback" class="wmkcfeedback">&nbsp;</div>
+            </div>
+        </section>
+        <div class="bodylay"></div>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="copy">Copyright &copy; Zhejiang SALI Abrasive Technology Co.,Ltd All Rights Reserved.</p>
+        </div>
+    </footer>
+    <input type="hidden" id="presql" value="False" />
+    <input type="hidden" id="afterredis" value="False" />
+    <script src="https://js01.v15cdn.com/toastr.min.js"></script>
+    <script src="https://js01.v15cdn.com/Site_Common.js"></script>
+    <script src="https://js01.v15cdn.com/leavemessage.js" async id="leavemessage"></script>
+    <script>
+        function PSearch() {
+            var e = $.trim($("#txtSearch").val());
+            return "" == e ? ($("#txtSearch").addClass('search-error'), $("#txtSearch").focus(), !1) : !(e.length <= 1) && !(e.indexOf("<") > -1 || e.indexOf(">") > -1) && (e = e.replace("/", "XieXian"), void (location.href = "http://" + document.domain + "/search/" + encodeURIComponent(e.replace(/\+/g, "((()))")) + ".html"))
+        }
+        $("#txtSearch").keydown(function (e) {
+            13 == e.which && PSearch()
+        });
+        $('.mmenu').click(function () {
+            $('header').toggleClass('head-act');
+            $('.bodylay').toggle();
+        })
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"a6e90161879644e4ade998a8f52f491e","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
