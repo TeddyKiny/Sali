@@ -1,0 +1,5 @@
+﻿.common-main>.l-wrap{max-width:100%;padding:0}
+.contactlist{max-width:1230px;padding:0 15px}
+.contactbox .contactimg::before{background: var(--color);}
+.contactbox .contactimg .p2 span{color: #fff;}
+.contactbox .contactimg .list li em{color: #fff;}

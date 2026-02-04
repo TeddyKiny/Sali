@@ -1,0 +1,40 @@
+@charset "utf-8";
+.wmkcfeedback .inquiry-form{display:flex;flex-wrap:wrap;justify-content:space-between}
+.wmkcfeedback .inquiry-form>*{width:49%}
+.wmkcfeedback .wmkcfb-fileupload,.wmkcfeedback input,.wmkcfeedback textarea{outline:0;border-radius:5px;border:none;background-color:#FFFFFF;height:48px;padding:10px;margin-bottom:1em;font-family:inherit;border:1px solid #eaeaea;font-size:var(--fontsize14);transition:all .1s linear;font-size:16px}
+.wmkcfeedback input::placeholder,.wmkcfeedback textarea::placeholder{color:#999}
+.wmkcfeedback input:focus,.wmkcfeedback textarea:focus{border-color:var(--color,#26609e)!important}
+.wmkcfeedback input.input-error,.wmkcfeedback textarea.input-error{border-color:#e00}
+.wmkcfeedback textarea{width:100%!important;flex:none!important;height:140px;resize:none}
+.wmkcfeedback .send-btn{margin:0 auto;min-width:250px;height:48px;border-radius:5px;font-size:var(--fontsize16);background:var(--color);color:#FFFFFF;font-weight:var(--fontbold4);display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;outline:0;padding:0 20px;transition:all .1s linear;position:relative;overflow:hidden}
+.wmkcfeedback .send-btn:hover{background:#111}
+.wmkcfeedback .send-btn[disabled]{background:#eee!important;color:#999!important}
+.wmkcfeedback .send-btn[disabled]::before{content:none!important}
+.wmkcfeedback .send-btn:hover::after{transform:translate(-50%,-50%) scale(1)}
+.wmkcfeedback .select-menu{position:relative;margin-bottom:15px;width:49%}
+.wmkcfeedback .select-menu input{margin:0!important;width:100%!important;cursor:pointer}
+.wmkcfeedback .select-menu .select-menu-div em{margin-right:5px;position:absolute;right:32px;top:50%;transform:translateY(-50%);transition:all .4s ease}
+.wmkcfeedback .select-menu .select-menu-div em.select-menu-i{transform:rotateX(180deg)}
+.wmkcfeedback .select-menu .select-menu-div em::after,.wmkcfeedback .select-menu .select-menu-div em::before{content:"";width:10px;height:2px;background:#999;position:absolute;top:50%;left:0;transform:rotate(45deg)}
+.wmkcfeedback .select-menu .select-menu-div em::after{transform:rotate(-45deg);left:6px}
+.wmkcfeedback .select-menu .select-menu-ul{box-shadow:0 1px 15px 0 rgba(15,19,39,.1);list-style:none;display:none;width:100%;text-align:left;border:1px solid #ddd;background:#FFFFFF;position:absolute;z-index:9}
+.wmkcfeedback .select-menu .select-menu-ul li{color:#000;padding:0 20px;line-height:2.5;cursor:pointer;font-size:13px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden}
+.wmkcfeedback .select-menu .select-menu-ul li:hover{background:#f2faea}
+.wmkcfeedback .select-menu .select-menu-ul li:nth-child(2n){background:#f5f4f4}
+.wmkcfeedback .select-menu .select-menu-ul li:nth-child(2n):hover{background:#f2faea}
+.wmkcfeedback .select-menu .select-menu-ul li.select-this{background:#f2faea}
+.wmkcfeedback .select-menu .select-menu-ul li.select-this:hover{background:#f2faea!important}
+.wmkcfeedback .loading{position:relative;width:18px;height:18px;margin-left:8px;border:2px solid #000;border-top-color:rgba(0,0,0,.2);border-right-color:rgba(0,0,0,.2);border-bottom-color:rgba(0,0,0,.2);border-radius:100%;animation:feedbacksenloading infinite .75s linear}
+@keyframes feedbacksenloading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+.wmkcfeedback .feed-verification{position:relative;margin-bottom:15px;width:100%;max-width:300px}
+.wmkcfeedback .feed-verification input{width:100%!important;margin:0!important}
+.wmkcfeedback .feed-verification img{position:absolute;right:20px;top:50%;transform:translateY(-50%);cursor:pointer}
+.wmkcfeedback .wmkcfb-fileupload{display:flex;align-items:center;color:#999}
+.wmkcfb-fileupload{background-image:url(https://img01.v15cdn.com/choose-file.webp);background-repeat:no-repeat;background-position:right;background-size:auto 55%;cursor:pointer}
+@media(max-width:1024px){
+.wmkcfeedback .feed-verification{max-width:100%}
+.wmkcfeedback .select-menu{width:100%}}
+@media(max-width:768px){
+.wmkcfeedback .wmkcfb-fileupload,.wmkcfeedback input{width:100%!important;margin:0 0 10px!important;flex:none!important;height:45px!important;font-size:var(--fontsize16)!important}
+.wmkcfeedback textarea{margin-bottom:10px!important;font-size:var(--fontsize16)!important}
+.wmkcfeedback .send-btn{width:100%}}

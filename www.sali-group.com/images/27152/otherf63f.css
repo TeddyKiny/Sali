@@ -1,0 +1,10 @@
+﻿@charset "utf-8"; 
+:root{--color:#002E72;}
+.head-nav .nav-ul>li#lipartner-grow>a,.head-nav .nav-ul>li#liservice-center>a{pointer-events: none;}
+.head-nav .nav-ul>li#lihome>a{text-transform: uppercase;}
+.head-left .item em,.head-share ul a:hover,.home-choose .right ul li em{color:#fff}
+.home-icon{background:#fff}
+.home-cate .list li .title{background:linear-gradient(0deg,#cccccccc 0,rgba(0,0,0,0) 100%);color:var(--hovercolor)}
+iframe { height: revert-layer;}
+footer .foot-bot{background: var(--color);}
+.head-nav .nav-ul>li#linewslist-1>a{pointer-events: none;}

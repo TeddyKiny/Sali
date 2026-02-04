@@ -1,0 +1,5 @@
+﻿.home-projects::before{height:100%;}
+@media (min-width:769px){.home-projects{padding-bottom:5%;}}
+.home-choose,.home-projects::before{background: var(--color);}
+.home-banner .swiper-slide>a::after{display:none;}
+.home-cate .list li .title {background: initial;}

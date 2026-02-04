@@ -1,0 +1,143 @@
+@media (max-width:1024px){
+.pagesbanner .pagesbanner-animate{top:50%}
+.page-nav{margin-top:30px}
+.pagenav-cate{position:relative}
+.pagenav-cate .pagenav-menu{display:flex;align-items:center;justify-content:space-between;border:1px solid #f3f3f3;padding:0 10px;font-size:var(--fontsize22);background:#fafafa;text-transform:capitalize}
+.pagenav-cate .pagenav-menu em{font-size:var(--fontsize24)}
+.pagenav-cate .pagenav-catelist{display:none;position:absolute;top:100%;left:0;width:100%;background-color:#FFFFFF;box-shadow:rgba(0,0,0,.2) 0 2px 16px;z-index:9}
+.pagenav-cate .pagenav-catelist a{padding:8px 15px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden}
+.pagenav-cate .pagenav-catelist li{list-style:none;position:relative}
+.pagenav-cate .pagenav-catelist li.is-act{background:#fafafa}
+.pagenav-cate .pagenav-catelist li.is-act>em{transform:rotateX(180deg)}
+.pagenav-cate .pagenav-catelist li ul{padding-left:20px;display:none}
+.pagenav-cate .pagenav-catelist li em{position:absolute;right:15px;top:6px;width:30px;height:30px;transition:all .2s linear;display:inline-flex;align-items:center;justify-content:center}
+.procate{justify-content:space-between}
+.procate li{width:49%;margin-right:0}
+.pro-list.list1{justify-content:space-between}
+.pro-list.list1 li{width:49%;margin-right:0}
+.pro-list.list1 li .pro-info{padding:20px 10px}
+.pro-list li .pro-meta .icon{opacity:1;transform:translateY(0)}
+.pro-list.list0 li{margin-bottom:1em;width:100%}
+.pro-list.list0 li .pro-img{width:40%}
+.newslist.list1{justify-content:space-between}
+.newslist.list1 li{width:49%;margin-right:0}
+.newslist.list0 li{width:100%}
+.newslist.list0 li .img{width:35%}
+.download-list li .download-info{font-size:var(--fontsize18)}
+.project-wrap{justify-content:space-between}
+.project-wrap li{width:49%;margin-right:0;margin-bottom:1em}
+.pro-d-main .banner-inner{display:none}
+.contactlist li .info .p2{font-size:var(--fontsize24)}
+.contactbox>div{width:100%}
+.contactbox .contactimg{background:var(--hovercolor);padding:20px 0;position:relative}
+.contactbox .contactimg::before{right:auto;left:50%;transform:translateX(-50%);width:1920px;z-index:-1}
+.contactbox .contactimg .list{margin-top:2em}
+.contactbox .contactimg .p2{font-size:var(--fontsize30)}
+.contactbox .contactfeedback{background:#f3f3f3;padding:30px 0;position:relative}
+.contactbox .contactfeedback::before{right:auto;left:50%;transform:translateX(-50%);width:1920px;z-index:-1}
+.about1 .list li .num span{font-size:var(--fontsize30)}
+.application1 .list li{width:49%}
+.case1{flex-direction:column}
+.case1 .left{width:100%;margin:0}
+.case1 .left .p2{font-size:var(--fontsize30);padding-bottom:20px}
+.case1 .right{width:100%;margin-top:1em}
+.case2 li .opacity .p2{font-size:var(--fontsize18);text-align:center}
+.partner1 .list li{width:49%}
+.partner2 .list li{width:24%}
+.preview-container .thumbnail-box{height:400px}}
+@media (max-width:768px){
+.inquiry-title{font-size:var(--fontsize24)}
+#maylinkswiper{padding:0 0 30px}
+.common-page .sort{flex:1}
+.imgalt{position:absolute;left:50%;transform:translateX(-50%);bottom:10px;width:95%;height:40px;line-height:40px;background:#00000080;color:#FFFFFF;border-radius:30px;padding:0 20px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden}
+.banner-page{height:40px;min-width:40px;text-align:center;line-height:40px;position:absolute;right:10px;bottom:10px;white-space:nowrap;z-index:1;color:#FFFFFF;border-radius:30px;padding:0 10px;background:#00000080;display:block}
+.page-main{padding:30px 0}
+.banner-inner .banner-title-h1{font-size:var(--fontsize22);color:var(--color)}
+.protypefeedback{padding:30px 0}
+.pro-maylink{padding:30px 0}
+.banner-inner .banner-content{height:auto;padding:10px 0}
+.banner-inner .banner-content .l-wrap{flex-direction:column-reverse;align-items:flex-start}
+.maylink-list .swiper-slide .pro-info{padding:10px 10px 30px}
+.pro-list.list0 li .pro-info{padding:10px}
+.pro-list.list0 li .pro-info .text{margin:10px 0 0}
+.pro-list li .pro-info .more,.pro-list.list0 li .data-price{display:none}
+.pro-list.list0 li .pro-img{width:45%}
+.pro-list li .pro-meta .icon,.pro-list li .pro-meta .icon-hottitle,.pro-list li .pro-meta .icon-videoplay{width:30px;height:30px}
+.prodetails-top{flex-direction:column}
+.preview-container{width:100%;height:auto}
+.preview-container .thumbnail-show{display:none}
+.preview-container .thumbnail-box{padding:0;margin:0;margin-top:15px;border:1px solid #CCCCCC;height:auto;width:100%}
+.preview-container .thumbnail-box .item img{object-fit:contain}
+.thumbnail-box .prodetails-button-next,.thumbnail-box .prodetails-button-prev{display:none}
+.pro-d-main .page-main{padding:0}
+.preview-container .thumbnail-box .item{aspect-ratio:1/1;border:none}
+.preview-container #media{aspect-ratio:1/1}
+.mediaplay{width:50px;height:50px}
+.prodetails-info{padding:0;margin-top:20px;width:100%}
+.prodetails-name{font-size:var(--fontsize24)}
+.prodetails-item{width:100%}
+.prodetails-info .prodetails-btnlist{justify-content:space-between;margin-top:20px}
+.prodetails-info .prodetails-btnlist>*{min-width:inherit;width:49%;margin-right:0}
+.prodetails-tabs{justify-content:space-between}
+.prodetails-tabs .prodetails-tabs-item{width:49%;padding:0 10px;margin-right:0}
+.pagelink{padding:0;background:0 0}
+.pagelink .pagelink-item.prev::after{display:none}
+.pagelink .pagelink-item{width:100%;height:auto;background:#f7f7f7;padding:10px 10px}
+.pagelink .pagelink-item.next{margin-top:1em}
+.pagelink .pagelink-item .icon{width:40px;height:40px}
+.newslist.list1 li .info{padding:15px 10px}
+.newscontent-title{font-size:var(--fontsize24);line-height:1.4}
+.newscontent-meta{padding-bottom:15px}
+.news-d-main .page-main{padding-bottom:0}
+.newslist.list0 li .info .text{margin:5px 0 0 0}
+.newslist.list0 li .info .more{display:none}
+.download-list{justify-content:space-between}
+.download-list li{width:49%;margin-right:0}
+.download-list li .download-info{top:30%}
+.download-list li .download-btn{min-width:140px;height:40px;margin-top:10px}
+.newslist li{margin-bottom:1em}
+.singglepic{width:100%;height:auto;border:1px solid #ddd;aspect-ratio:1/1;margin-top:10px}
+.contactlist li{width:100%}
+.contactlist li:nth-child(n+2){margin-top:1em}
+.contactbox .contactimg .p2{font-size:var(--fontsize24)}
+.about1 .box{transform:none;padding:30px 10px}
+.about1 .list li{width:100%;margin-top:1em}
+.about2 .list li{width:100%}
+.about2 .list li:nth-child(n+2){margin-top:2em}
+.about2 .list li .p1{margin:0}
+.about3 .page-title{text-align:center}
+.about3 .about3swipertop .swiper-slide{flex-direction:column}
+.about3 .about3swipertop .swiper-slide .left{width:100%;padding:0}
+.about3 .about3swipertop .swiper-slide .left .title{font-size:var(--fontsize30)}
+.about3 .about3swipertop .swiper-slide .right{width:100%;margin-top:1em}
+.about3 .about3swiperbottom .swiper-slide{font-size:var(--fontsize20)}
+.application1 .list li .info{padding-top:10px}
+.application1 .list li .info .p1{font-size:var(--fontsize18)}
+.case1 .left .p2{font-size:var(--fontsize24)}
+.case2 li{width:49%;margin-bottom:1em}
+.factory1{flex-direction:column}
+.factory1 .img{width:100%}
+.factory1 .info{width:100%;padding:0;margin-top:1em}
+.factory2 .list{margin-top:0}
+.factory2 .list li{width:100%}
+.factory2 .list li:nth-child(n+2){margin-top:2em}
+.factory2 .list li .num{width:100px}
+.factory2 .list li .num span{font-size:var(--fontsize30)}
+.factory2 .list li .text .p1{font-size:var(--fontsize16)}
+.factory2 .list li .text .p2{font-size:var(--fontsize22)}
+.factory2 .video{margin-top:0}
+.partner1 .list li{width:100%}
+.partner2 .list li{width:49%}
+.partner2 .list li p{font-size:var(--fontsize18)}
+.newslist li .info .title{font-size:var(--fontsize18)}
+.newslist.list0 li .info{padding:10px}
+.newslist li .info .text{-webkit-line-clamp:2}
+.single-title{font-size:var(--fontsize24);line-height:1.4}
+.faqs-list .project-info .project-content::before,.faqs-list .project-info .project-name::before{width:40px;height:40px}
+.faqs-list .project-info .project-content,.faqs-list .project-info .project-name{padding-left:50px}
+.faqs-list .project-info .project-name{font-size:var(--fontsize18)}
+.faqs-list li::after{width:calc(100% - 50px)}
+.download-list li .download-info{font-size:var(--fontsize16)}
+.contactlist li .info .p2{font-size:var(--fontsize18)}
+.pro-cate-title{font-size:var(--fontsize24)}
+.maylink-list .swiper-slide .pro-info .title{font-size:var(--fontsize16)}}
